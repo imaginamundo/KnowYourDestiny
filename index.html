@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Know your Destiny</title>
+        <meta name="description" content="Have fun.">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+            html,
+            body {
+                height: 100%;
+            }
+            body:before,
+            body:after {
+                content: " ";
+                display: table;
+            }
+            body:after {
+                clear: both;
+            }
+            body {
+                *zoom: 1;
+                margin: 0;
+                background: #000;
+                background: url('img/space-travel.gif') center;
+                background-size: cover;
+                color: #fff;
+                font-family: 'Oswald', sans-serif;
+                text-transform: uppercase;
+                text-align: center;
+            }
+            h2 {
+                font-weight: normal;
+            }
+            a {
+                color: #fff;
+                text-decoration: none;
+            }
+            .container {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                padding-right: 8px;
+                padding-left: 8px;
+                width: 100%;
+                max-width: 900px;
+                box-sizing: border-box;
+                transform: translate(-50%, -50%);
+            }
+            .grid {
+                *zoom: 1;
+            }
+            .grid:before,
+            .grid:after {
+                content: " ";
+                display: table;
+            }
+            .grid:after {
+                clear: both;
+            }
+            .col-1-2 {
+                float: left;
+                width: 50%;
+            }
+            .reset {
+                position: fixed;
+                right: 16px;
+                bottom: 16px;
+                transition: all .2s ease-in-out;
+            }
+            .reset:hover {
+                transform: scale(1.2);
+            }
+            @media (max-height: 445px) {
+                .container {
+                    position: static;
+                    transform: translate(0);
+                    margin: 0 auto;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <h2>You are:</h2>
+            <div class="grid">
+                <div class="col-1-2">
+                    <h2>
+                        <a id="you-are-first" class="stop" href="#"></a>
+                    </h2>
+                </div>
+                <div class="col-1-2">
+                    <h2>
+                        <a id="you-are-second" class="stop" href="#"></a>
+                    </h2>
+                </div>
+            </div>
+            <h2>The</h2>
+            <div class="grid">
+                <div class="col-1-2">
+                    <h2>
+                        <a id="the-first" class="stop" href="#"></a>
+                    </h2>
+                </div>
+                <div class="col-1-2">
+                    <h2>
+                        <a id="the-second" class="stop" href="#"></a>
+                    </h2>
+                </div>
+            </div>
+            <h2>Destined to</h2>
+            <div class="grid">
+                <div class="col-1-2">
+                    <h2>
+                        <a id="destined-to-first" class="stop" href="#"></a>
+                    </h2>
+                </div>
+                <div class="col-1-2">
+                    <h2>
+                        <a id="destined-to-second" class="stop" href="#"></a>
+                    </h2>
+                </div>
+            </div>
+        </div>
+
+        <h2>
+            <a id="reset" class="reset" href="#">Reset</a>
+        </h2>
+
+        <audio autoplay>
+            <source src="music/star-wars.mp3" type="audio/mpeg">
+        </audio>
+
+        <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+        <script src="js/jquery-2.1.4.min.js"></script>
+        <script src="js/script.js"></script>
+    </body>
+</html>
