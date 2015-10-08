@@ -46,7 +46,9 @@ $(function() {
             "Pussy",
             "Omega",
             "Fat",
-            "Feminist"
+            "Feminist",
+            "Booze",
+            "Samuel L."
         ],
         "youAreSecondInput" : [
             "Mc Donald",
@@ -67,7 +69,17 @@ $(function() {
             "Christ",
             "Sam",
             "Prime",
-            "Mom"
+            "Mom",
+            "Bro",
+            "Maximus",
+            "Advocate",
+            "Killer",
+            "X",
+            "Boy",
+            "Snacks",
+            "Virgin",
+            "Man",
+            "Chan"
         ],
         "theFirstInput" : [
             "Brooding",
@@ -87,8 +99,12 @@ $(function() {
             "Bringer of the",
             "Tragic",
             "Ruthless",
-            "Silent"
-
+            "Silent",
+            "Last",
+            "Plaged",
+            "Feared",
+            "Cold-blooded",
+            "Fabled"
         ],
         "theSecondInput" : [
             "Anon",
@@ -105,7 +121,11 @@ $(function() {
             "Meme",
             "McMuffy",
             "Pedo",
-            "Wizard"
+            "Wizard",
+            "Camwhore",
+            "Mastertroll",
+            "NEET",
+            "Ruler"
         ],
         "destinedToFirstInput" : [
             "Re-educate",
@@ -121,7 +141,15 @@ $(function() {
             "Slaughter all the",
             "Drill",
             "Wrestle with",
-            "Sell"
+            "Sell",
+            "Do nothing about",
+            "Re-invent",
+            "Subdue all",
+            "Challenge all",
+            "Invade",
+            "Slay",
+            "Lead all",
+            "Liberate all"
         ],
         "destinedToSecondInput" : [
             "Cakes",
@@ -138,7 +166,16 @@ $(function() {
             "STDs",
             "God",
             "The Skies",
-            "Feminism"
+            "Feminism",
+            "Your mother",
+            "Children",
+            "The Internet",
+            "The Goverment",
+            "Yourself",
+            "Nothing",
+            "Hoods",
+            "His waifu",
+            "Furries"
         ]
     };
 
