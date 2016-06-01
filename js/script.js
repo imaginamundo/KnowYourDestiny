@@ -1,151 +1,152 @@
-$(function() {
-    var input = {
-        "youAreFirstInput" : [
-            "Mr.",
-            "Easy to please",
-            "Magnificent",
-            "AIDS",
-            "Bizarro",
-            "Basement",
-            "Penis",
-            "Boss",
-            "Silent",
-            "Master",
-            "Mecha",
-            "Super",
-            "Not",
-            "Stinky",
-            "Ultra",
-            "Chibi",
-            "Captain",
-            "Good Old",
-            "Eternal",
-            "Dark",
-            "Chief",
-            "Commander",
-            "Waffen-SS",
-            "Ruthless",
-            "Faggy",
-            "Jesus",
-            "Mega",
-            "Lazy",
-            "Silent",
-            "Father",
-            "Tiny",
-            "Stoned",
-            "Hitlers",
-            "Psycho",
-            "Emperor",
-            "Long John",
-            "Mammoth",
-            "Nigger",
-            "Inferno",
-            "Blast",
-            "W. T.",
-            "Magnus",
-            "Pussy",
-            "Omega",
-            "Fat",
-            "Feminist"
-        ],
-        "youAreSecondInput" : [
-            "Mc Donald",
-            "Jim",
-            "Savior",
-            "Mc Muffy",
-            "Penis",
-            "Assassin",
-            "Woman",
-            "Kun",
-            "Saurus",
-            "Niffer",
-            "Assassin",
-            "Anon",
-            "Jew",
-            "Simon",
-            "Jesus",
-            "Christ",
-            "Sam",
-            "Prime",
-            "Mom"
-        ],
-        "theFirstInput" : [
-            "Brooding",
-            "Raging",
-            "One who'll steal the",
-            "Humungous",
-            "Massive",
-            "Brutal",
-            "Fabled",
-            "Heroic",
-            "Very angry",
-            "Perfect",
-            "Unstoppable",
-            "Marked",
-            "Savior",
-            "Hope of the",
-            "Bringer of the",
-            "Tragic",
-            "Ruthless",
-            "Silent"
+var input = {
+    "youAreFirstInput" : [
+        "Mr.",
+        "Easy to please",
+        "Magnificent",
+        "AIDS",
+        "Bizarro",
+        "Basement",
+        "Penis",
+        "Boss",
+        "Silent",
+        "Master",
+        "Mecha",
+        "Super",
+        "Not",
+        "Stinky",
+        "Ultra",
+        "Chibi",
+        "Captain",
+        "Good Old",
+        "Eternal",
+        "Dark",
+        "Chief",
+        "Commander",
+        "Waffen-SS",
+        "Ruthless",
+        "Faggy",
+        "Jesus",
+        "Mega",
+        "Lazy",
+        "Silent",
+        "Father",
+        "Tiny",
+        "Stoned",
+        "Hitlers",
+        "Psycho",
+        "Emperor",
+        "Long John",
+        "Mammoth",
+        "Nigger",
+        "Inferno",
+        "Blast",
+        "W. T.",
+        "Magnus",
+        "Pussy",
+        "Omega",
+        "Fat",
+        "Feminist"
+    ],
+    "youAreSecondInput" : [
+        "Mc Donald",
+        "Jim",
+        "Savior",
+        "Mc Muffy",
+        "Penis",
+        "Assassin",
+        "Woman",
+        "Kun",
+        "Saurus",
+        "Niffer",
+        "Assassin",
+        "Anon",
+        "Jew",
+        "Simon",
+        "Jesus",
+        "Christ",
+        "Sam",
+        "Prime",
+        "Mom"
+    ],
+    "theFirstInput" : [
+        "Brooding",
+        "Raging",
+        "One who'll steal the",
+        "Humungous",
+        "Massive",
+        "Brutal",
+        "Fabled",
+        "Heroic",
+        "Very angry",
+        "Perfect",
+        "Unstoppable",
+        "Marked",
+        "Savior",
+        "Hope of the",
+        "Bringer of the",
+        "Tragic",
+        "Ruthless",
+        "Silent"
 
-        ],
-        "theSecondInput" : [
-            "Anon",
-            "Otaku",
-            "Superhero",
-            "Superrobot",
-            "Christian",
-            "Overlord",
-            "Tripfag",
-            "Anon",
-            "Manchild",
-            "Behemoth",
-            "King",
-            "Meme",
-            "McMuffy",
-            "Pedo",
-            "Wizard"
-        ],
-        "destinedToFirstInput" : [
-            "Re-educate",
-            "Discover",
-            "Muder",
-            "Annihilate all",
-            "Rule all",
-            "Eat all",
-            "End all",
-            "Study all",
-            "Turn lead into",
-            "Steal",
-            "Slaughter all the",
-            "Drill",
-            "Wrestle with",
-            "Sell"
-        ],
-        "destinedToSecondInput" : [
-            "Cakes",
-            "Poland",
-            "Mankind",
-            "The Trolls",
-            "The Whitehouse",
-            "The Heavens",
-            "AIDS",
-            "Jews",
-            "Original content",
-            "Two bears at once",
-            "Your little Sis",
-            "STDs",
-            "God",
-            "The Skies",
-            "Feminism"
-        ]
-    };
+    ],
+    "theSecondInput" : [
+        "Anon",
+        "Otaku",
+        "Superhero",
+        "Superrobot",
+        "Christian",
+        "Overlord",
+        "Tripfag",
+        "Anon",
+        "Manchild",
+        "Behemoth",
+        "King",
+        "Meme",
+        "McMuffy",
+        "Pedo",
+        "Wizard"
+    ],
+    "destinedToFirstInput" : [
+        "Re-educate",
+        "Discover",
+        "Muder",
+        "Annihilate all",
+        "Rule all",
+        "Eat all",
+        "End all",
+        "Study all",
+        "Turn lead into",
+        "Steal",
+        "Slaughter all the",
+        "Drill",
+        "Wrestle with",
+        "Sell"
+    ],
+    "destinedToSecondInput" : [
+        "Cakes",
+        "Poland",
+        "Mankind",
+        "The Trolls",
+        "The Whitehouse",
+        "The Heavens",
+        "AIDS",
+        "Jews",
+        "Original content",
+        "Two bears at once",
+        "Your little Sis",
+        "STDs",
+        "God",
+        "The Skies",
+        "Feminism"
+    ]
+};
 
-    // You are: First Input
+(function() {
+    // You are: First input
     var youAreFirst = function(i) {
-        $('#you-are-first').html(input.youAreFirstInput[i]);
-        if (i < input.youAreFirstInput.length) {
+        document.getElementById('you-are-first').innerHTML = input.youAreFirstInput[i];
+
+        if(i < input.youAreFirstInput.length) {
             youAreFirstTimer = setTimeout(function() {
                 youAreFirst(i + 1);
             }, 50);
@@ -154,19 +155,20 @@ $(function() {
             youAreFirst(0);
         }
     }
+
     youAreFirst(0);
 
-    $('#you-are-first').on('click', function(e) {
+    document.getElementById('you-are-first').addEventListener('click', function(e) {
         clearTimeout(youAreFirstTimer);
 
         e.preventDefault();
-        e.stopPropagation();
     });
 
     // You are: Second Input
     var youAreSecond = function(i) {
-        $('#you-are-second').html(input.youAreSecondInput[i]);
-        if (i < input.youAreSecondInput.length) {
+        document.getElementById('you-are-second').innerHTML = input.youAreSecondInput[i];
+
+        if(i < input.youAreSecondInput.length) {
             youAreSecondTimer = setTimeout(function() {
                 youAreSecond(i + 1);
             }, 50);
@@ -175,19 +177,20 @@ $(function() {
             youAreSecond(0);
         }
     }
+
     youAreSecond(0);
 
-    $('#you-are-second').on('click', function(e) {
+    document.getElementById('you-are-second').addEventListener('click', function(e) {
         clearTimeout(youAreSecondTimer);
 
         e.preventDefault();
-        e.stopPropagation();
     });
 
-    // The: First Input
+    // The: First input
     var theFirst = function(i) {
-        $('#the-first').html(input.theFirstInput[i]);
-        if (i < input.theFirstInput.length) {
+        document.getElementById('the-first').innerHTML = input.theFirstInput[i];
+
+        if(i < input.theFirstInput.length) {
             theFirstTimer = setTimeout(function() {
                 theFirst(i + 1);
             }, 50);
@@ -196,19 +199,20 @@ $(function() {
             theFirst(0);
         }
     }
+
     theFirst(0);
 
-    $('#the-first').on('click', function(e) {
+    document.getElementById('the-first').addEventListener('click', function(e) {
         clearTimeout(theFirstTimer);
 
         e.preventDefault();
-        e.stopPropagation();
     });
 
-    // The: Second Input
+    // The: Second input
     var theSecond = function(i) {
-        $('#the-second').html(input.theSecondInput[i]);
-        if (i < input.theSecondInput.length) {
+        document.getElementById('the-second').innerHTML = input.theSecondInput[i];
+
+        if(i < input.theSecondInput.length) {
             theSecondTimer = setTimeout(function() {
                 theSecond(i + 1);
             }, 50);
@@ -217,19 +221,20 @@ $(function() {
             theSecond(0);
         }
     }
+
     theSecond(0);
 
-    $('#the-second').on('click', function(e) {
+    document.getElementById('the-second').addEventListener('click', function(e) {
         clearTimeout(theSecondTimer);
 
         e.preventDefault();
-        e.stopPropagation();
     });
 
-    // Destined To: First Input
+    // Destined To: First input
     var destinedToFirst = function(i) {
-        $('#destined-to-first').html(input.destinedToFirstInput[i]);
-        if (i < input.destinedToFirstInput.length) {
+        document.getElementById('destined-to-first').innerHTML = input.destinedToFirstInput[i];
+
+        if(i < input.destinedToFirstInput.length) {
             destinedToFirstTimer = setTimeout(function() {
                 destinedToFirst(i + 1);
             }, 50);
@@ -238,19 +243,20 @@ $(function() {
             destinedToFirst(0);
         }
     }
+
     destinedToFirst(0);
 
-    $('#destined-to-first').on('click', function(e) {
+    document.getElementById('destined-to-first').addEventListener('click', function(e) {
         clearTimeout(destinedToFirstTimer);
 
         e.preventDefault();
-        e.stopPropagation();
     });
 
-    // Destined To: Second Input
+    // Destined To: Second input
     var destinedToSecond = function(i) {
-        $('#destined-to-second').html(input.destinedToSecondInput[i]);
-        if (i < input.destinedToSecondInput.length) {
+        document.getElementById('destined-to-second').innerHTML = input.destinedToSecondInput[i];
+
+        if(i < input.destinedToSecondInput.length) {
             destinedToSecondTimer = setTimeout(function() {
                 destinedToSecond(i + 1);
             }, 50);
@@ -259,17 +265,17 @@ $(function() {
             destinedToSecond(0);
         }
     }
+
     destinedToSecond(0);
 
-    $('#destined-to-second').on('click', function(e) {
+    document.getElementById('destined-to-second').addEventListener('click', function(e) {
         clearTimeout(destinedToSecondTimer);
 
         e.preventDefault();
-        e.stopPropagation();
     });
 
     // Reset
-    $('#reset').on('click', function(e) {
+    document.getElementById('reset').addEventListener('click', function(e) {
         youAreFirst(0);
         youAreSecond(0);
         theFirst(0);
@@ -278,6 +284,5 @@ $(function() {
         destinedToSecond(0);
 
         e.preventDefault();
-        e.stopPropagation();
     })
-});
+})();
