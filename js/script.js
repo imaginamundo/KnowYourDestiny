@@ -46,7 +46,9 @@
             "Pussy",
             "Omega",
             "Fat",
-            "Feminist"
+            "Feminist",
+            "Booze",
+            "Samuel L."
         ],
         "youAreSecondInput" : [
             "Mc Donald",
@@ -59,7 +61,6 @@
             "Kun",
             "Saurus",
             "Niffer",
-            "Assassin",
             "Anon",
             "Jew",
             "Simon",
@@ -67,7 +68,17 @@
             "Christ",
             "Sam",
             "Prime",
-            "Mom"
+            "Mom",
+            "Bro",
+            "Maximus",
+            "Advocate",
+            "Killer",
+            "X",
+            "Boy",
+            "Snacks",
+            "Virgin",
+            "Man",
+            "Chan"
         ],
         "theFirstInput" : [
             "Brooding",
@@ -87,8 +98,24 @@
             "Bringer of the",
             "Tragic",
             "Ruthless",
-            "Silent"
-
+            "Silent",
+            "Last",
+            "Plaged",
+            "Feared",
+            "Cold-blooded",
+            "Fabled",
+            "Evil, evil",
+            "Bloodthirsty",
+            "Ronery",
+            "First",
+            "Immortal",
+            "Desperate",
+            "Chosen",
+            "Right",
+            "Legendary",
+            "One and only",
+            "Impeccable",
+            "Kawaii"
         ],
         "theSecondInput" : [
             "Anon",
@@ -105,12 +132,21 @@
             "Meme",
             "McMuffy",
             "Pedo",
-            "Wizard"
+            "Wizard",
+            "Camwhore",
+            "Mastertroll",
+            "NEET",
+            "Ruler",
+            "Assassin",
+            "Driller",
+            "One",
+            "Killer",
+            "Basement Dweller"
         ],
         "destinedToFirstInput" : [
             "Re-educate",
             "Discover",
-            "Muder",
+            "Murder",
             "Annihilate all",
             "Rule all",
             "Eat all",
@@ -121,7 +157,20 @@
             "Slaughter all the",
             "Drill",
             "Wrestle with",
-            "Sell"
+            "Sell",
+            "Do nothing about",
+            "Re-invent",
+            "Subdue all",
+            "Challenge all",
+            "Invade",
+            "Slay",
+            "Lead all",
+            "Liberate all",
+            "Die eating",
+            "Snack on",
+            "Battle with",
+            "Defeat",
+            "Break"
         ],
         "destinedToSecondInput" : [
             "Cakes",
@@ -138,7 +187,22 @@
             "STDs",
             "God",
             "The Skies",
-            "Feminism"
+            "Feminism",
+            "Your mother",
+            "Children",
+            "The Internet",
+            "The Goverment",
+            "Yourself",
+            "Nothing",
+            "Hoods",
+            "His waifu",
+            "Furries",
+            "Tibet",
+            "Europe",
+            "4chan",
+            "Pokemon",
+            "And pillage everything",
+            "The memes"
         ]
     };
 
