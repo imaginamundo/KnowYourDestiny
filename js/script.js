@@ -61,7 +61,6 @@
             "Kun",
             "Saurus",
             "Niffer",
-            "Assassin",
             "Anon",
             "Jew",
             "Simon",
@@ -104,7 +103,19 @@
             "Plaged",
             "Feared",
             "Cold-blooded",
-            "Fabled"
+            "Fabled",
+            "Evil, evil",
+            "Bloodthirsty",
+            "Ronery",
+            "First",
+            "Immortal",
+            "Desperate",
+            "Chosen",
+            "Right",
+            "Legendary",
+            "One and only",
+            "Impeccable",
+            "Kawaii"
         ],
         "theSecondInput" : [
             "Anon",
@@ -125,12 +136,17 @@
             "Camwhore",
             "Mastertroll",
             "NEET",
-            "Ruler"
+            "Ruler",
+            "Assassin",
+            "Driller",
+            "One",
+            "Killer",
+            "Basement Dweller"
         ],
         "destinedToFirstInput" : [
             "Re-educate",
             "Discover",
-            "Muder",
+            "Murder",
             "Annihilate all",
             "Rule all",
             "Eat all",
@@ -149,7 +165,12 @@
             "Invade",
             "Slay",
             "Lead all",
-            "Liberate all"
+            "Liberate all",
+            "Die eating",
+            "Snack on",
+            "Battle with",
+            "Defeat",
+            "Break"
         ],
         "destinedToSecondInput" : [
             "Cakes",
@@ -175,7 +196,13 @@
             "Nothing",
             "Hoods",
             "His waifu",
-            "Furries"
+            "Furries",
+            "Tibet",
+            "Europe",
+            "4chan",
+            "Pokemon",
+            "And pillage everything",
+            "The memes"
         ]
     };
 
